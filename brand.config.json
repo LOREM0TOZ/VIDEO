@@ -1,0 +1,23 @@
+{
+  "_note": "The render environment could not reach foundryy.tech, so this copy is a placeholder. Replace with the site's real tagline, features and colors, then run `npm run render`.",
+  "name": "FOUNDRYY",
+  "url": "foundryy.tech",
+  "tagline": "Where ideas are forged into products.",
+  "opener": "Every great product starts as raw material.",
+  "rawMaterials": ["Ideas.", "Code.", "Ambition."],
+  "forgeLine": "We forge them into something real.",
+  "pillars": [
+    { "kicker": "01", "title": "Design", "body": "Shape the vision" },
+    { "kicker": "02", "title": "Build", "body": "Engineer it to last" },
+    { "kicker": "03", "title": "Launch", "body": "Ship it to the world" }
+  ],
+  "cta": "Start building",
+  "colors": {
+    "bg": "#0d0b0a",
+    "ink": "#f4ede4",
+    "muted": "#8a7f74",
+    "molten": "#ff6a1a",
+    "hot": "#ffb347",
+    "white": "#fff3d6"
+  }
+}
