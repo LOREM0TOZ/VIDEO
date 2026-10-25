@@ -1,0 +1,44 @@
+{
+  "title": "Mud Crab Curry",
+  "subtitle": "from the river to the pot",
+  "style": "Hand-drawn 2D anime film still, cel-shaded characters and objects with clean ink lines, soft painterly watercolor backgrounds, warm golden natural light, gentle film grain, rich but soft color palette, cinematic shallow depth of field. Setting: a tropical mangrove river village in Southeast Asia. The cook's hands are warm brown-skinned with a rolled-up indigo cotton sleeve. No text, no watermark, no logos.",
+  "motion_style": "Hand-drawn anime animation style, smooth and calm, one slow satisfying movement, steady camera with a gentle push-in. Keep the painterly anime look throughout. No text, no music, no speech.",
+  "shots": [
+    {
+      "id": 2,
+      "name": "catch",
+      "frame": "Close-up of a hand lifting a wet woven bamboo crab trap out of the river, a huge dark green mud crab inside raising its claws, water droplets flying and glowing in the low morning sunlight.",
+      "motion": "The hand lifts the bamboo trap up out of the water, water streams and droplets fly in slow motion catching the light, the mud crab snaps its claws.",
+      "sound": "water pouring off the trap, droplets, crab claws clicking, birds"
+    },
+    {
+      "id": 3,
+      "name": "coconut",
+      "frame": "Close-up on a wooden chopping block outdoors: a green coconut being split with a heavy machete, the moment of impact, clear coconut water splashing outward in glittering droplets, warm morning light.",
+      "motion": "In slow motion the machete splits the green coconut in one chop, clear coconut water bursts and splashes outward in glittering arcs.",
+      "sound": "a single sharp chop, splash of coconut water"
+    },
+    {
+      "id": 5,
+      "name": "milk",
+      "frame": "Close-up of two hands squeezing a handful of freshly grated coconut over a carved wooden bowl, thick white coconut milk streaming down into the bowl.",
+      "motion": "The two hands slowly squeeze the grated coconut, a thick stream of white coconut milk pours down into the wooden bowl, ripples spread.",
+      "sound": "wet squeeze, milk streaming and splashing into the bowl"
+    },
+    {
+      "id": 7,
+      "name": "pot",
+      "frame": "Close-up of a clay pot over a wood fire, a spoonful of red chili paste hitting hot shimmering oil, a cloud of fragrant steam rising, creamy coconut milk being poured in from a wooden bowl turning the curry golden orange.",
+      "motion": "The red paste sizzles in the hot oil and a cloud of steam rises, then creamy coconut milk pours in and swirls, the curry turns golden.",
+      "sound": "loud sizzle of paste in hot oil, then coconut milk pouring and bubbling, crackling wood fire"
+    },
+    {
+      "id": 9,
+      "name": "meal",
+      "frame": "By the river at sunset, a bright orange crab curry served on a green banana leaf with a mound of white rice, steam rising, a hand breaking open a crab claw, golden sunset light reflecting on the water behind.",
+      "motion": "Steam rises from the curry, the hand slowly cracks the crab claw open, the sunset glimmers on the river behind.",
+      "sound": "crab shell cracking, gentle river at evening, distant birds"
+    }
+  ],
+  "seconds_per_shot": 4
+}

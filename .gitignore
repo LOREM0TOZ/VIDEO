@@ -1,3 +1,8 @@
 node_modules/
 out/*.png
 out/*.wav
+mudcrab/build/clip-*.mp4
+mudcrab/build/*.wav
+mudcrab/build/ops.json
+mudcrab/build/title.html
+mudcrab/build/*.log
