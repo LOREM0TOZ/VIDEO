@@ -9,3 +9,6 @@ mudcrab/build/*.log
 streamfish/build/clip-*.mp4
 streamfish/build/*.wav
 streamfish/build/ops.json
+raincabin/build/clip-*.mp4
+raincabin/build/*.wav
+raincabin/build/ops.json

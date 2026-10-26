@@ -1,0 +1,87 @@
+{
+  "title": "A Rainy Night in the Forest Cabin",
+  "aspect": "9:16",
+  "style": "High-quality hand-drawn 2D Japanese anime film still: soft watercolor painted backgrounds, delicate clean line art, rich environmental detail, warm nostalgic atmosphere, cinematic lighting, detailed food textures, peaceful slice-of-life mood. Original artwork, not copying any existing film or artist. World (identical in every shot): a small remote wooden cabin among tall evergreen cedar trees in a misty Japanese mountain forest at dusk turning to night, gentle rain falling on moss-covered stones, wooden steps and lush ferns. Inside the cabin: warm amber light, a rustic wooden table, a small black iron wood-burning stove, simple cooking utensils, a rustic dark iron pot, and a window covered in tiny raindrops. Lighting: cool blue-gray rainy light outside contrasting with warm amber firelight inside, soft shadows, reflections on wet surfaces, delicate steam and mist. The only character is one solitary traveler, shown from behind or as close-ups of hands, never the face: dark green hooded rain jacket, beige trousers, brown leather hiking boots, light warm skin, slim adult proportions (indoors the jacket is off, revealing a cream knit sweater). No other people. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no captions, no logos, no watermark.",
+  "motion_style": "Hand-drawn 2D anime animation, peaceful and slow, gentle rain and environmental animation, smooth cinematic camera movement, coherent hand anatomy, stable objects, one clear action. Keep the painterly anime look throughout. No text, no music, no speech, no singing.",
+  "negative": "text, subtitles, captions, watermark, logo, music, speech, singing, extra people, visible face, extra fingers, deformed hands, photorealistic, 3D render, CGI",
+  "music_prompt": "Peaceful, gentle Japanese-anime-film style instrumental for a rainy night: soft solo felt piano with warm cello and a delicate music box, slow tempo around 65 bpm, calm, cozy, nostalgic, warm cabin by a fire while rain falls outside",
+  "music_negative": "vocals, singing, drums, heavy percussion, electric guitar, synth bass, fast tempo, rain sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "trail",
+      "seconds": 4,
+      "refs": [],
+      "frame": "Outdoors at dusk in gentle rain: the traveler seen from behind, walking along a narrow muddy forest trail between tall misty evergreen trees, hood up, droplets on the dark green rain jacket. Ahead, a small wooden cabin with a warm golden glowing window among the trees, mossy stones and ferns along the path.",
+      "motion": "The traveler walks slowly along the muddy trail toward the glowing cabin, rain falls gently, mist drifts between the trees, the camera slowly follows behind.",
+      "sound": "gentle rain on leaves, soft footsteps on wet ground, droplets dripping"
+    },
+    {
+      "id": 2,
+      "name": "door",
+      "seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "Close on the cabin entrance in the rain: the traveler from behind on the wet wooden steps, a hand pushing open the wooden cabin door, warm amber light spilling out onto the rain-soaked steps and mossy stones.",
+      "motion": "The hand pushes the wooden door open, warm light spills out across the wet steps, rain keeps falling in the foreground.",
+      "sound": "rain on the roof, a creaking wooden door opening, footsteps on wooden steps"
+    },
+    {
+      "id": 3,
+      "name": "ingredients",
+      "seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "Inside the cabin, overhead close-up on the rustic wooden table by the rain-spotted window: the traveler's hands (cream knit sweater sleeves, the dark green rain jacket hung on a hook behind) slicing fresh brown mushrooms on a wooden cutting board, with green onions, garlic cloves and a bundle of dried ramen noodles laid out beside it, warm amber lamplight.",
+      "motion": "The hands slice the mushrooms with calm, careful knife strokes, slices fall neatly to the side, raindrops slide down the window.",
+      "sound": "knife chopping on a wooden board, rain on the roof"
+    },
+    {
+      "id": 4,
+      "name": "stove",
+      "seconds": 4,
+      "refs": [
+        3
+      ],
+      "frame": "Inside the cabin, close-up of the small black iron wood-burning stove with its door open: the traveler's hand (cream knit sleeve) placing a small piece of firewood inside, orange flames flickering, warm light spreading across the wooden walls, the rainy blue window in the background.",
+      "motion": "The hand places the firewood into the stove, the flames catch and flicker brighter, warm orange light spreads across the cabin.",
+      "sound": "firewood crackling, stove door creak, rain outside"
+    },
+    {
+      "id": 5,
+      "name": "pot",
+      "seconds": 4,
+      "refs": [
+        3
+      ],
+      "frame": "Inside the cabin, overhead close-up of a rustic dark iron pot of simmering golden broth on the iron stove: glossy ramen noodles, sliced mushrooms and green onions in the pot, the traveler's hand (cream knit sleeve) stirring with long wooden chopsticks, steam curling up through the warm light.",
+      "motion": "The chopsticks gently stir the noodles, the broth bubbles, mushrooms and greens swirl naturally, steam rises slowly and curls.",
+      "sound": "broth bubbling, noodles stirring, fire crackling softly"
+    },
+    {
+      "id": 6,
+      "name": "bowl",
+      "seconds": 4,
+      "refs": [
+        3
+      ],
+      "frame": "Inside the cabin, close-up of the traveler's hands (cream knit sleeves) setting down a beautiful steaming ceramic bowl of homemade mushroom ramen on the wooden table beside the rain-covered window: golden broth, noodles, mushrooms, green onions, wooden chopsticks resting beside the bowl, warm amber light.",
+      "motion": "The hands gently set the steaming bowl down on the table and slowly withdraw, steam curls upward, raindrops trickle down the window.",
+      "sound": "ceramic bowl placed on a wooden table, rain against the window"
+    },
+    {
+      "id": 7,
+      "name": "finale",
+      "seconds": 6,
+      "refs": [
+        3,
+        6
+      ],
+      "frame": "Inside the cabin, a wider medium shot from behind and slightly to the side: we see the traveler's back, shoulders and the back of the head (short dark hair, cream knit sweater, beige trousers) seated on a wooden stool at the wooden table by the rain-covered window, holding up the same white ceramic ramen bowl from the reference with both hands, steam rising. The glowing iron stove is to one side, the green rain jacket on its hook, the dark rainy forest visible through the window. Face not visible.",
+      "motion": "The traveler lifts the bowl gently and pauses, steam rises, the camera slowly pulls back to reveal the glowing stove, the warm wooden interior and rain falling in the dark forest outside.",
+      "sound": "gentle rain on the roof, soft fire crackle, quiet steam"
+    }
+  ]
+}
