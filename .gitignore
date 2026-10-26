@@ -12,3 +12,6 @@ streamfish/build/ops.json
 raincabin/build/clip-*.mp4
 raincabin/build/*.wav
 raincabin/build/ops.json
+riverboat/build/clip-*.mp4
+riverboat/build/*.wav
+riverboat/build/ops.json

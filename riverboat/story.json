@@ -1,0 +1,89 @@
+{
+  "title": "Breakfast on a Little River Boat",
+  "aspect": "9:16",
+  "style": "High-quality hand-drawn 2D anime film still: painterly backgrounds, delicate clean line art, detailed wooden textures, lush tropical vegetation, shimmering water reflections, soft golden sunrise light, charming environmental details, warm nostalgic storybook slice-of-life atmosphere, consistent cinematic color grading with warm highlights on wood, pastel-colored riverside buildings and rich tropical greens. Original visual identity, not copying any existing film or artist. World (identical in every shot): a small handcrafted wooden houseboat with a compact open-air kitchen under a woven bamboo roof, a wooden cooking counter, clay pots, metal utensils, a small portable gas stove, wooden shutters and a little wooden table by an open window, gliding along a calm tropical river in a floating village with palm trees, flowering water lilies and lotus, small wooden bridges, colorful floating market boats and traditional pastel stilt houses, at sunrise with light mist on the water. Main character (identical whenever shown): a young adult traveler with short tousled black hair, a cream-colored linen shirt with rolled sleeves, dark blue trousers and a simple brown apron when cooking, slim natural proportions, warm light-tan skin, gentle friendly expression. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no signs with lettering, no captions, no logos, no watermark.",
+  "motion_style": "Hand-drawn 2D anime animation, peaceful and slow, gentle water, steam, leaves and cloth movement, subtle rocking of the boat, smooth cinematic camera movement, coherent hand anatomy, stable objects, one clear action. Keep the painterly anime look and the same character design throughout. No text, no music, no speech, no singing.",
+  "negative": "text, letters, subtitles, captions, watermark, logo, music, speech, singing, extra fingers, deformed hands, changing outfit, photorealistic, 3D render, CGI",
+  "music_prompt": "Peaceful, gentle Japanese-anime-film style instrumental for a sunrise morning on a tropical river: warm acoustic guitar fingerpicking, soft piano, light marimba and a gentle flute, slow relaxed tempo around 75 bpm, hopeful, cozy, nostalgic, heartwarming",
+  "music_negative": "vocals, singing, drums, heavy percussion, electric guitar, synth bass, fast tempo, water sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "waking",
+      "seconds": 4,
+      "refs": [],
+      "frame": "Inside the tiny wooden houseboat at sunrise: the traveler (cream linen shirt, short black hair, face visible in three-quarter view, gentle sleepy smile) pushing open the wooden shutters of the window, golden morning light pouring in across the little kitchen counter with clay pots, revealing the misty tropical river outside with palm trees, distant boats and pastel stilt houses, birds in the sky.",
+      "motion": "The traveler pushes the wooden shutters open, golden sunlight floods in, mist drifts over the river outside, birds fly over the village, reflections shimmer on the water.",
+      "sound": "wooden shutters creaking open, birds singing, gentle river water"
+    },
+    {
+      "id": 2,
+      "name": "market",
+      "seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "On the river at the floating market at sunrise: from slightly behind and to the side, the traveler in the cream linen shirt standing at the edge of the little wooden houseboat, reaching out to take a bunch of fresh green herbs from a smiling vendor in a conical hat on a small wooden market boat piled with bananas, mangoes, leafy vegetables, eggs and rice; a woven basket on the houseboat already holds mangoes and eggs; other colorful market boats around, palm trees and pastel stilt houses behind.",
+      "motion": "The traveler takes the herbs from the vendor and gently places them into the woven basket, the boats bob softly on the water, market life moves calmly in the background.",
+      "sound": "gentle river water lapping, wooden boats creaking, soft distant market activity, a paddle moving through water"
+    },
+    {
+      "id": 3,
+      "name": "prep",
+      "seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "Overhead close-up of the wooden cutting board on the houseboat's little kitchen counter in morning sunlight: the traveler's hands (cream linen sleeves rolled up, brown apron edge visible) cracking a brown egg into a ceramic bowl, with chopped green herbs, sliced red chili and spring onion, sliced tomatoes, a bowl of washed rice and a ripe mango arranged around the board, river shimmering at the edge of frame.",
+      "motion": "The hands crack the egg and the yolk drops cleanly into the ceramic bowl, sunlight glints on the ingredients, the river shimmers beside the counter.",
+      "sound": "an egg cracking, a gentle tap on the bowl, soft river water, birds"
+    },
+    {
+      "id": 4,
+      "name": "cook",
+      "seconds": 4,
+      "refs": [
+        1,
+        3
+      ],
+      "frame": "Close-up of the small portable stove on the houseboat counter: golden eggs and green vegetables gently frying in a small black pan, beside it a clay pot of rice with steam rising, the traveler's hand (cream linen sleeve, brown apron) holding a wooden spatula, sunrise light and the river behind.",
+      "motion": "The spatula gently moves the eggs and vegetables in the sizzling pan, steam rises from the rice pot, the boat rocks very subtly.",
+      "sound": "eggs sizzling gently in a pan, rice simmering, soft river water"
+    },
+    {
+      "id": 5,
+      "name": "tea",
+      "seconds": 4,
+      "refs": [
+        1,
+        3
+      ],
+      "frame": "Close-up on the little wooden table by the open window of the houseboat: the traveler's hand (cream linen sleeve) pouring hot amber tea from a small clay teapot into a ceramic cup, steam rising and glowing in the golden sunrise light, the floating village and river softly blurred outside the window.",
+      "motion": "The hot tea pours in a smooth stream into the cup, steam curls up through the sunlight, the river glitters outside.",
+      "sound": "tea being poured into a ceramic cup, birds singing, gentle water"
+    },
+    {
+      "id": 6,
+      "name": "breakfast",
+      "seconds": 4,
+      "refs": [
+        1,
+        5
+      ],
+      "frame": "The traveler (cream linen shirt, short black hair, face visible in soft profile, content smile) seated at the little wooden table beside the open boat window, taking the first bite with chopsticks from a bowl of rice topped with golden eggs; on the table: colorful vegetables, sliced mango and banana on a small plate, the steaming cup of tea; the floating village with pastel houses and palm trees passing by outside in golden light.",
+      "motion": "The traveler lifts a bite with chopsticks and eats contentedly, steam rises from the tea, the village slowly drifts past the window.",
+      "sound": "a ceramic bowl placed on the wooden table, chopsticks, gentle river water, birds"
+    },
+    {
+      "id": 7,
+      "name": "bridge",
+      "seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "EXTERIOR wide establishing shot, camera low on the river surface outside the boat (no interior walls, no window frame around the view): the little wooden houseboat with its woven bamboo roof, seen from the outside in three-quarter view, gliding along the calm river and about to pass beneath a small arched wooden footbridge that spans the river in the foreground. Through the boat's open side window the traveler in the cream linen shirt is visible, small, eating breakfast at the little table. Golden sunrise reflecting on the water, pink lotus flowers and lily pads swaying in the foreground, palm trees and pastel stilt houses on both banks, soft mist.",
+      "motion": "The camera slowly pulls back as the houseboat glides gently beneath the wooden bridge, sunlight sparkles on the water, flowers sway softly in the foreground.",
+      "sound": "gentle river water, wooden boat creaking softly, birds singing, a distant paddle"
+    }
+  ]
+}
