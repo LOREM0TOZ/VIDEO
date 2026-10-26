@@ -1,0 +1,67 @@
+{
+  "title": "Forest Stream Fish Soup",
+  "aspect": "9:16",
+  "style": "High-quality hand-drawn 2D anime film still in the style of peaceful Japanese hand-drawn animation: painterly backgrounds, soft watercolor textures, delicate clean line art, natural organic shapes, detailed rocks and moss, lush green forest foliage, crystal-clear blue-green water, warm orange firelight where there is fire, cinematic composition, rich but natural colors, calm nostalgic storybook atmosphere. Setting (identical in every shot): a shallow forest mountain stream with smooth round river stones visible beneath crystal-clear water, moss-covered boulders, dense ferns and green vegetation, tall tree trunks, soft sunlight filtering through the canopy, and a rustic weathered wooden plank work surface on the bank. The only person is an unseen camper; when the scene calls for them, show only the hands and forearms are ever shown: natural adult hand proportions, light warm-tan skin, and a rolled-up olive-green flannel shirt sleeve with a thin dark plaid. No other people, no faces. No text, no captions, no logos, no watermark. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders.",
+  "motion_style": "Hand-drawn 2D anime animation, peaceful and slow, gentle environmental animation, smooth subtle camera movement, coherent hand anatomy, stable objects. Keep the painterly anime look throughout. No text, no music, no speech, no singing.",
+  "negative": "text, subtitles, captions, watermark, logo, music, speech, singing, extra people, face, extra fingers, deformed hands, photorealistic, 3D render, CGI",
+  "music_prompt": "Peaceful, gentle Japanese-anime-film style instrumental: soft solo piano with warm acoustic guitar, light strings and a delicate music box, slow tempo around 70 bpm, calm, nostalgic, cozy, sunlight in a quiet forest, relaxing outdoor cooking",
+  "music_negative": "vocals, singing, drums, heavy percussion, electric guitar, synth bass, fast tempo",
+  "shots": [
+    {
+      "id": 1,
+      "name": "stream",
+      "seconds": 4,
+      "frame": "Low angle just above the water surface: a small silver-brown trout swimming through crystal-clear shallow water over smooth colorful river stones, sunlight dappling and dancing on the surface, mossy boulders and ferns along the bank, forest softly blurred behind. Nature only: no hands, no people and no wooden table in this shot.",
+      "motion": "The small fish glides slowly over the stones, sunlight caustics shimmer on the stream bed, gentle ripples move across the frame, camera slowly pushes in.",
+      "sound": "flowing stream water, gentle trickle, leaves rustling, distant birds"
+    },
+    {
+      "id": 2,
+      "name": "catch",
+      "seconds": 4,
+      "frame": "Close-up: the camper's hand gently lifting the small trout out of the clear stream, cupped in the palm, water droplets falling from its shining scales and sparkling in the sunlight, river stones visible below.",
+      "motion": "The hand carefully lifts the fish up out of the water, water droplets fall naturally from its scales and drip back into the stream with small ripples.",
+      "sound": "a gentle splash, water dripping back into the stream"
+    },
+    {
+      "id": 3,
+      "name": "prep",
+      "seconds": 4,
+      "frame": "Overhead shot of the rustic wooden chopping board on the bank beside the stream: the camper's hands slicing fresh brown shiitake mushrooms with a small Japanese kitchen knife, green spring onions, a knob of ginger and wild leafy greens arranged beside it, the trout resting on a leaf. Important: this is on the dry pebbly bank of the stream, on solid ground, not in the water; the clear stream flows beside it in the background.",
+      "motion": "The hands slice the mushrooms with calm, rhythmic knife strokes, slices fall neatly to the side, the stream glints at the edge of frame.",
+      "sound": "knife tapping on a wooden board, soft stream in the background"
+    },
+    {
+      "id": 4,
+      "name": "fire",
+      "seconds": 4,
+      "frame": "Close-up of a small carefully arranged campfire in a ring of river stones beside the stream: small sticks burning, flickering orange flames, glowing embers, delicate smoke rising into the green forest air, sunlight beams behind. Important: this is on the dry pebbly bank of the stream, on solid ground, not in the water; the clear stream flows beside it in the background.",
+      "motion": "The flames flicker and dance naturally, embers pulse and glow, thin smoke curls upward through the sunbeams.",
+      "sound": "wood crackling and popping, soft fire whoosh, stream in the background"
+    },
+    {
+      "id": 5,
+      "name": "grill",
+      "seconds": 4,
+      "frame": "Close-up of the trout on a simple small metal grill grate above the campfire, its skin turning golden brown and slightly crisp, light smoke and heat shimmer rising, glowing embers below, forest stream softly blurred behind. Important: this is on the dry pebbly bank of the stream, on solid ground, not in the water; the clear stream flows beside it in the background.",
+      "motion": "The fish sizzles on the grill, its skin slowly turns golden brown, fat drips and sparks on the embers, smoke and heat shimmer rise.",
+      "sound": "fish sizzling on the grill, fat dripping onto embers, crackling fire"
+    },
+    {
+      "id": 6,
+      "name": "pot",
+      "seconds": 4,
+      "frame": "Overhead close-up of a rustic black cast-iron pot hanging above the campfire with simmering clear golden broth: the camper's hand adding sliced shiitake mushrooms and leafy greens, pieces of the grilled golden fish already floating in the broth, steam rising. Important: this is on the dry pebbly bank of the stream, on solid ground, not in the water; the clear stream flows beside it in the background.",
+      "motion": "The hand drops the sliced mushrooms and greens into the simmering broth, they gently sink and swirl, bubbles rise, steam drifts up.",
+      "sound": "ingredients plopping into the pot, bubbling broth, crackling fire"
+    },
+    {
+      "id": 7,
+      "name": "meal",
+      "seconds": 6,
+      "frame": "Close-up of the finished rustic fish soup in a carved wooden bowl resting on a mossy stone: clear golden broth with grilled trout pieces, shiitake mushrooms, wilted greens and spring onion, gently rising steam, warm firelight on one side, the sunlit forest stream softly blurred in the background.",
+      "motion": "Steam gently rises and curls from the soup, the broth shimmers slightly, the stream sparkles softly in the blurred background, camera slowly pushes in.",
+      "sound": "gentle steam, soft flowing stream, leaves rustling, a distant bird"
+    }
+  ]
+}

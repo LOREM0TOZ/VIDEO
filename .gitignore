@@ -6,3 +6,6 @@ mudcrab/build/*.wav
 mudcrab/build/ops.json
 mudcrab/build/title.html
 mudcrab/build/*.log
+streamfish/build/clip-*.mp4
+streamfish/build/*.wav
+streamfish/build/ops.json
