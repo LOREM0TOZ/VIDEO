@@ -82,5 +82,8 @@
       "motion": "A still-life shot: no hands, arms or people ever enter the frame and nothing on the table is touched. The camera slowly pushes in toward the golden grilled fish, steam gently rises from the rice, leaf shadows drift softly across the table.",
       "sound": "gentle breeze, leaves rustling, distant cicadas, soft steam"
     }
-  ]
+  ],
+  "music_prompt": "Peaceful, gentle Japanese-anime-film style instrumental for a sunny summer afternoon in a countryside garden: warm acoustic guitar fingerpicking, soft piano, light glockenspiel and a gentle wooden flute, slow relaxed tempo around 72 bpm, nostalgic, cozy, heartwarming, slow living",
+  "music_negative": "vocals, singing, drums, heavy percussion, electric guitar, synth bass, fast tempo, sound effects",
+  "music_volume": 0.55
 }

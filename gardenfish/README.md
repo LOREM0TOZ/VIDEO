@@ -1,6 +1,6 @@
 # Garden Grilled Fish
 
-A 28-second vertical (9:16, 1080×1920) first-person anime cooking short set in a Japanese countryside garden, for YouTube Shorts, TikTok and Reels. Per the brief, it uses natural ASMR-style sound only: no music, no voice and no text.
+A 28-second vertical (9:16, 1080×1920) first-person anime cooking short set in a Japanese countryside garden, for YouTube Shorts, TikTok and Reels. It has natural ASMR-style synced sound with a soft, peaceful guitar, piano and flute bed underneath (original Lyria music, so it is safe to post). There is no voice and no text.
 
 | # | Time | Shot |
 |---|---|---|
@@ -17,7 +17,7 @@ A 28-second vertical (9:16, 1080×1920) first-person anime cooking short set in 
 ## Rebuild
 
 ```bash
-python3 -I gen.py frames && python3 -I gen.py clips && ./assemble.sh
+python3 -I gen.py frames && python3 -I gen.py clips && python3 -I gen.py music && ./assemble.sh
 ```
 
-`assemble.sh` mixes in a music bed only if `build/music.wav` exists. To add one, run `python3 -I gen.py music` after adding `music_prompt` and `music_negative` to `story.json`.
+`python3 -I gen.py music` generates the bed. `assemble.sh` mixes it in at `music_volume` from `story.json` (delete `build/music.wav` for a natural-sound-only cut).

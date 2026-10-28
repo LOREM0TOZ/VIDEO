@@ -14,9 +14,10 @@ done
 VC=""; AC=""; for i in $(seq 0 $((n-1))); do VC="$VC[v$i]"; AC="$AC[a$i]"; done
 
 if [ -f $B/music.wav ]; then
+  MVOL=$(python3 -Ic 'import json;print(json.load(open("story.json")).get("music_volume",0.30))')
   MUSIC_IN="-i $B/music.wav"
   AUDIO="${AC}concat=n=$n:v=0:a=1,loudnorm=I=-18:TP=-2[sfx];
-[$n:a]atrim=0:$T,volume=0.30,afade=in:d=1.5,afade=out:st=$((T-3)):d=3[mus];
+[$n:a]atrim=0:$T,volume=$MVOL,afade=in:d=1.5,afade=out:st=$((T-3)):d=3[mus];
 [sfx][mus]amix=inputs=2:normalize=0,afade=out:st=$((T-1)):d=1,alimiter=limit=0.9[a]"
 else
   MUSIC_IN=""
