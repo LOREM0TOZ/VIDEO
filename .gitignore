@@ -15,3 +15,6 @@ raincabin/build/ops.json
 riverboat/build/clip-*.mp4
 riverboat/build/*.wav
 riverboat/build/ops.json
+gardenfish/build/clip-*.mp4
+gardenfish/build/*.wav
+gardenfish/build/ops.json

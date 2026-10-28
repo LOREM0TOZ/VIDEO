@@ -1,0 +1,86 @@
+{
+  "title": "Garden Grilled Fish",
+  "aspect": "9:16",
+  "style": "High-quality hand-drawn 2D anime film still with an original, timeless Japanese countryside slice-of-life aesthetic: soft painterly backgrounds, subtle watercolor textures, delicate outlines, natural colors, warm golden summer-afternoon sunlight filtering through green leaves with soft dappled light, detailed weathered wooden surfaces, vibrant vegetables, realistic-looking food textures within an illustrated world, gentle shadows, subtle depth of field, consistent warm color grading. Not copying any existing film or artist. World (identical in every shot): a lush countryside vegetable garden with tomato vines on bamboo stakes, broad green leaves and ripe striped watermelons, next to a rustic outdoor cooking area with a weathered wooden preparation table, a wooden chopping board, a woven harvest basket, a simple small charcoal grill, and leafy trees behind. Strict first-person point of view: the camera is the cook's own eyes looking down at their work; only the cook's two hands and forearms are ever visible, entering from the bottom of the frame: natural adult proportions, five fingers each, warm light-tan skin, sleeves of a light-blue cotton work shirt rolled to the forearm. No faces, no bodies, no other people. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no captions, no logos, no watermark.",
+  "motion_style": "Hand-drawn 2D anime animation, first-person point of view, calm and slow, gentle natural camera movement, leaves swaying in a warm breeze, anatomically correct hands with smooth natural finger movement, stable objects, one clear action. Keep the painterly anime look throughout. No text, no music, no speech, no singing.",
+  "negative": "text, subtitles, captions, watermark, logo, music, speech, singing, face, extra people, extra fingers, distorted fingers, duplicated objects, flickering, sudden scene change, photorealistic, 3D render, CGI",
+  "shots": [
+    {
+      "id": 1,
+      "name": "tomato",
+      "seconds": 4,
+      "refs": [],
+      "frame": "First-person close-up in the sunlit vegetable garden: the two hands gently cupping and picking a ripe glossy red tomato from a green tomato vine on a bamboo stake, other green and red tomatoes and broad leaves around, the woven harvest basket and the wooden table softly visible in the background, dappled golden sunlight.",
+      "motion": "The hands gently twist the ripe tomato and it snaps free from the vine, leaves sway softly in the warm breeze, sunlight flickers through the foliage.",
+      "sound": "leaves rustling, a soft snap of the tomato stem, summer cicadas and birds in the distance"
+    },
+    {
+      "id": 2,
+      "name": "watermelon",
+      "seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "First-person view looking down at the garden bed among broad green leaves and curling vines: the two hands resting on a large ripe striped green watermelon, about to lift it, the woven harvest basket with the red tomato beside it, warm dappled sunlight.",
+      "motion": "The hands tap the watermelon gently, then lift it up out of the leaves, leaves sway and brush aside.",
+      "sound": "a hollow tap on the watermelon, leaves rustling, cicadas"
+    },
+    {
+      "id": 3,
+      "name": "greens",
+      "seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "First-person overhead view of the weathered wooden preparation table in dappled sunlight: the two hands slicing fresh green onions with a Japanese kitchen knife on the wooden chopping board, a wooden tub of water with freshly washed leafy greens beside it, a small white ceramic bowl of prepared greens, red tomatoes and the harvest basket on the table, the garden softly blurred around.",
+      "motion": "The knife slices through the green onions with calm rhythmic strokes, the fingers guide the onions forward, sliced rings fall neatly onto the board.",
+      "sound": "a knife tapping against the wooden board, water dripping from leaves, soft breeze"
+    },
+    {
+      "id": 4,
+      "name": "season",
+      "seconds": 4,
+      "refs": [
+        3
+      ],
+      "frame": "First-person overhead close-up on the wooden chopping board on the same table: a fresh whole silver mackerel-like fish with detailed glossy scales and clear eyes, the right hand sprinkling coarse salt over it from above while the left hand steadies the board, small dishes of herbs and spices and a lemon nearby, warm dappled sunlight.",
+      "motion": "The fingers sprinkle salt evenly along the fish, salt crystals glint as they fall onto the scales, the other hand steadies the board.",
+      "sound": "salt sprinkling onto the fish, soft breeze, birds"
+    },
+    {
+      "id": 5,
+      "name": "grill",
+      "seconds": 4,
+      "refs": [
+        3,
+        4
+      ],
+      "frame": "First-person close-up of the small charcoal grill beside the table: the seasoned whole fish on a metal grill grate above glowing orange charcoal, its skin turning golden and lightly charred, the hands holding long wooden chopsticks to gently adjust the fish, delicate smoke rising, warm light reflecting on the grill, the garden behind.",
+      "motion": "The chopsticks gently nudge and turn the fish on the grate, the skin sizzles and browns, embers pulse beneath, thin smoke curls upward.",
+      "sound": "fish sizzling on the grill, charcoal crackling, chopsticks clicking on the metal grate"
+    },
+    {
+      "id": 6,
+      "name": "plate",
+      "seconds": 4,
+      "refs": [
+        5,
+        3
+      ],
+      "frame": "First-person overhead view of the wooden table: the two hands placing the golden grilled whole fish onto a clean white ceramic plate, a lemon slice beside it, with a small bowl of fresh greens with green onion, sliced red tomatoes on a small dish and a bowl of steamed white rice already arranged on the table, dappled sunlight. The fish is clearly fully cooked: deep golden-brown, crisp, lightly charred skin with grill marks and blistered patches, exactly like the grilled fish in the reference, not silver or raw.",
+      "motion": "The hands gently lower the plate with the golden fish onto the table and slide the lemon slice into place, then withdraw, steam rises from the rice.",
+      "sound": "a ceramic plate placed on the wooden table, a soft clink, breeze through leaves"
+    },
+    {
+      "id": 7,
+      "name": "meal",
+      "seconds": 4,
+      "refs": [
+        6
+      ],
+      "frame": "Close-up of the completed meal on the rustic wooden table, no hands: the golden lightly charred grilled fish on the white ceramic plate with a lemon slice, a bowl of fresh green vegetables, sliced red tomatoes, and a bowl of steamed white rice with gentle steam rising, warm golden afternoon sunlight with dappled leaf shadows, the green garden softly blurred behind. The fish is clearly fully cooked: deep golden-brown, crisp, lightly charred skin with grill marks and blistered patches, exactly like the grilled fish in the reference, not silver or raw.",
+      "motion": "A still-life shot: no hands, arms or people ever enter the frame and nothing on the table is touched. The camera slowly pushes in toward the golden grilled fish, steam gently rises from the rice, leaf shadows drift softly across the table.",
+      "sound": "gentle breeze, leaves rustling, distant cicadas, soft steam"
+    }
+  ]
+}
