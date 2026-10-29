@@ -1,0 +1,77 @@
+{
+  "title": "Golden Sunset Village",
+  "aspect": "9:16",
+  "music_volume": 0.7,
+  "crossfade": 1.2,
+  "style": "Breathtaking hand-drawn 2D anime background art with an original, nostalgic Japanese countryside feel: detailed hand-painted backgrounds, rich natural colors, soft painterly lighting, atmospheric perspective, delicate line work, beautiful anime scenery, peaceful and dreamlike. Not copying any existing film or artist. World (identical in every shot): a small rural village of tiny traditional Japanese wooden farmhouses with dark tiled and thatched roofs, nestled in a lush green valley surrounded by majestic layered blue-green mountains and rolling hills, with stepped terraced rice fields, winding dirt paths, small vegetable gardens, a gentle flowing stream crossed by small wooden bridges, lush green trees and colorful wildflowers. Lighting: a magical golden sunset, warm orange sunlight shining through soft glowing clouds, long sunbeams across the mountains and village, soft shadows, atmospheric haze in the distance. Any villagers are tiny distant figures only. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no captions, no logos, no watermark, no artist signature, no handwriting or scribbles anywhere in the image.",
+  "motion_style": "Hand-drawn 2D anime scenery animation, slow fluid cinematic camera movement, gentle natural motion: trees and grass swaying in the breeze, clouds drifting, water flowing, birds gliding, stable scenery with no distortion or flicker. Keep the painterly anime look throughout. No text, no music, no speech, no singing.",
+  "negative": "text, subtitles, captions, watermark, logo, music, speech, singing, close-up people, faces, flicker, warping buildings, distorted objects, sudden cuts, fast camera, photorealistic, 3D render, CGI, signature, handwriting",
+  "music_prompt": "Gentle, relaxing, emotional Japanese-countryside instrumental: soft piano melody, delicate koto-inspired plucked strings and fingerpicked acoustic guitar, subtle warm ambient pads, occasional gentle bamboo flute notes, slow tempo around 66 bpm, starts softly, gradually introduces the main melody, nostalgic, soothing, peaceful golden sunset over a mountain village, ending with a gentle resolution",
+  "music_negative": "vocals, lyrics, singing, drums, heavy percussion, electric guitar, synth bass, dramatic build, fast tempo, sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "establish",
+      "seconds": 6,
+      "refs": [],
+      "frame": "Wide elevated view from a hillside looking down over the whole countryside village in its green valley: tiny traditional wooden houses, green fields and terraced rice paddies, winding paths and the stream, surrounded by towering layered mountains, the golden sun low behind soft clouds casting warm light and long sunbeams across the valley.",
+      "motion": "The camera slowly moves forward over the hillside toward the village in a gentle cinematic entrance, clouds drift, grass and trees sway softly, birds glide in the distance.",
+      "sound": "gentle wind across the hillside, distant birds singing, soft rustling grass"
+    },
+    {
+      "id": 2,
+      "name": "village",
+      "seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "LOW, CLOSE view just above the rooftops inside the village (much closer than the overview, horizon not visible or very high): a winding dirt path leading between several traditional wooden farmhouses with thatched and tiled roofs, small fenced vegetable gardens with leafy rows, a persimmon tree and leafy trees swaying, two tiny villagers walking on the path in the middle distance (one carrying a basket), warm golden sunlight raking across the roofs and leaves with long soft shadows.",
+      "motion": "The camera glides slowly along the winding path above the village, trees sway gently in the breeze, tiny villagers walk naturally in the distance, light glints on the roofs.",
+      "sound": "gentle breeze through the trees, faint distant village sounds, birds"
+    },
+    {
+      "id": 3,
+      "name": "stream",
+      "seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "Closer view of the gentle stream flowing past lush gardens and colorful wildflowers, a small wooden bridge over the water, leafy trees overhead, tiny particles of golden light floating in the warm air, the village houses softly visible beyond.",
+      "motion": "The stream ripples and flows gently, leaves dance in the breeze, golden light particles float slowly through the air, the camera drifts slowly closer.",
+      "sound": "soft flowing water, leaves rustling, a distant bird"
+    },
+    {
+      "id": 4,
+      "name": "sunset",
+      "seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "Looking up past the village rooftops toward the majestic mountains and the glowing orange sun sinking between peaks, soft golden and pink clouds, long dramatic sunbeams fanning across the sky and down onto the valley, a few birds silhouetted.",
+      "motion": "The camera slowly tilts upward from the rooftops to the glowing sun and mountains, soft clouds drift across the sky, golden rays shimmer, birds glide.",
+      "sound": "gentle wind, distant birds, soft evening ambience"
+    },
+    {
+      "id": 5,
+      "name": "panorama",
+      "seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "Low eye-level view from the edge of the water-filled stepped rice terraces in the foreground, their still surfaces mirroring the orange sunset sky and clouds, young green rice shoots in rows, the terraces stepping down toward rustic wooden houses and the winding glinting stream in the middle distance, rolling hills and distant layered mountains bathed in warm sunset light and haze. A different, closer composition from the high village overview.",
+      "motion": "The camera pans slowly and fluidly across the landscape, the rice terraces shimmer with reflected light, clouds drift, the stream glints.",
+      "sound": "soft wind across the fields, flowing water in the distance, birds"
+    },
+    {
+      "id": 6,
+      "name": "ending",
+      "seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "Beautiful wide final view of the entire village beneath the glowing sunset sky, the sun just touching the mountains, warm light on the roofs and fields, the stream winding through the valley, soft clouds glowing orange and pink, a peaceful balanced composition.",
+      "motion": "The camera slowly eases backward and settles into a still final composition, clouds, trees and water move very subtly, the light glows warmly.",
+      "sound": "gentle evening breeze, soft distant birds, quiet flowing water"
+    }
+  ]
+}
