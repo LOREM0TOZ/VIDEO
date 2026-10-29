@@ -1,0 +1,84 @@
+{
+  "title": "Countryside Garden Lunch",
+  "aspect": "9:16",
+  "music_volume": 0.6,
+  "style": "High-quality hand-drawn 2D anime film still with an original cozy Japanese countryside slice-of-life aesthetic: soft watercolor backgrounds, delicate outlines, beautiful illustrated textures, warm golden late-afternoon sunlight, lush green vegetation with soft green reflections, natural colors, detailed food, gentle natural shadows, consistent warm color grading. Not copying any existing film or artist. World (identical in every shot): a small sunny countryside vegetable garden with tomato plants on bamboo stakes, leafy greens, cucumbers and herbs, beside a rustic weathered wooden outdoor table, a woven bamboo basket, a wooden chopping board, a small enamel washing basin, and a small cast-iron charcoal grill on a stand next to the table, with tall green trees and a glimpse of a traditional wooden farmhouse behind. Strict first-person point of view: the camera is the cook's own eyes; only the cook's two hands and forearms are ever visible, entering from the bottom of the frame: natural adult proportions, five fingers each, warm medium skin tone, sleeves of an indigo-dyed cotton shirt rolled to mid-forearm. No faces, no bodies, no other people. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no captions, no logos, no watermark.",
+  "motion_style": "Hand-drawn 2D anime animation, first-person point of view, calm and slow, subtle natural camera movement, leaves moving in a gentle breeze, anatomically correct hands with smooth natural finger movement, stable objects, one clear action. Keep the painterly anime look throughout. No text, no music, no speech, no singing.",
+  "negative": "text, subtitles, captions, watermark, logo, music, speech, singing, face, extra people, extra fingers, distorted fingers, duplicated ingredients, flickering, abrupt camera change, photorealistic, 3D render, CGI, third hand, extra hands, extra arms",
+  "music_prompt": "Soft lo-fi acoustic instrumental: delicate fingerpicked acoustic guitar, gentle sparse piano notes, subtle warm ambient pads and a very light warm melody, slow tempo around 70 bpm, peaceful comforting Japanese countryside afternoon, cozy, steady and unobtrusive with no dramatic changes",
+  "music_negative": "vocals, lyrics, singing, drums, heavy percussion, beat drops, electric guitar, synth bass, dramatic changes, fast tempo, sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "harvest",
+      "seconds": 5,
+      "gen_seconds": 6,
+      "refs": [],
+      "frame": "First-person slow intimate close-up in the sunlit garden. EXACTLY TWO HANDS in total, no third hand: the cook's RIGHT hand (entering from the bottom right) reaches up and gently picks a ripe red tomato from a lush tomato plant on a bamboo stake; the cook's LEFT hand (entering from the bottom left) holds the handle of the woven bamboo basket low in the frame, the basket already containing fresh green vegetables (cucumbers, leafy greens, green onions). Sunlight passes through the leaves; the wooden table, the washing basin and the small charcoal grill are softly visible behind.",
+      "motion": "The right hand gently picks the ripe tomato from the plant and places it into the woven basket held by the other hand, tiny leaves move in the breeze, sunlight flickers through the foliage.",
+      "sound": "birds chirping, leaves rustling, a soft snap of the tomato stem"
+    },
+    {
+      "id": 2,
+      "name": "prep",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "First-person overhead view of the rustic wooden table in warm sunlight: the hands slicing a ripe red tomato into neat wedges with a kitchen knife on the wooden chopping board, freshly sliced green onions in a little pile beside it, the enamel basin with water and washed leafy greens and cucumbers at the edge of the board, the woven basket nearby.",
+      "motion": "The knife slices cleanly through the tomato with calm strokes, one hand steadies it, the slices fall open showing juicy texture, then the hand moves the slices beside the green onions.",
+      "sound": "a knife tapping against the wooden board, water dripping from washed greens, birds"
+    },
+    {
+      "id": 3,
+      "name": "season",
+      "seconds": 4,
+      "gen_seconds": 4,
+      "refs": [
+        2
+      ],
+      "frame": "First-person overhead close-up on the wooden board on the same table: a cleaned whole silver fish with detailed scales, the right hand sprinkling salt and cracked pepper over it from above, a small dish of chopped herbs and a little bottle of oil nearby, a few herb leaves already on the fish, warm sunlight.",
+      "motion": "Salt and pepper fall from the fingers onto the fish, then the hand gently rubs a little oil and herbs across the fish's surface.",
+      "sound": "seasoning sprinkling onto the fish, a soft rub, birds in the distance"
+    },
+    {
+      "id": 4,
+      "name": "grill",
+      "seconds": 8,
+      "gen_seconds": 8,
+      "refs": [
+        2,
+        3
+      ],
+      "frame": "First-person close-up of the small cast-iron charcoal grill beside the table: the seasoned whole fish on the metal grate above glowing orange charcoal, skin already turning golden with light char marks, the hands using long wooden cooking chopsticks to carefully turn it, delicate smoke rising, small flickering flames and warm orange firelight reflecting on the grill and the hands, green garden behind.",
+      "motion": "The chopsticks carefully lift and turn the fish on the grate revealing golden lightly charred skin, embers glow and pulse, small flames flicker, delicate smoke rises and drifts.",
+      "sound": "fish sizzling on the grill, charcoal crackling, wooden chopsticks touching the metal grate"
+    },
+    {
+      "id": 5,
+      "name": "plate",
+      "seconds": 3,
+      "gen_seconds": 4,
+      "refs": [
+        2,
+        4
+      ],
+      "frame": "First-person overhead view of the wooden table: the hands setting the golden grilled fish on a white ceramic plate, beside it sliced red tomato wedges, a small bowl of fresh greens with green onion, a lemon wedge, and a small bowl of steamed white rice. The fish is clearly fully cooked: deep golden-brown lightly charred skin exactly like the grilled fish in the reference.",
+      "motion": "The hands gently place the plate with the golden fish on the table and tuck the lemon wedge beside it, then withdraw, steam rises from the rice.",
+      "sound": "a ceramic plate placed on the wooden table, a soft clink"
+    },
+    {
+      "id": 6,
+      "name": "meal",
+      "seconds": 4,
+      "gen_seconds": 4,
+      "refs": [
+        5
+      ],
+      "frame": "Close-up of the completed lunch on the rustic wooden table, no hands: the golden grilled fish on the white ceramic plate with tomato wedges, fresh greens, a lemon wedge and the bowl of steamed rice with gentle steam, warm late-afternoon sunlight illuminating the food, green leaves softly blurred behind. The fish is clearly fully cooked with deep golden-brown lightly charred skin.",
+      "motion": "A still-life shot: no hands, arms or people ever enter the frame and nothing on the table is touched. The camera slowly pushes in toward the meal and then holds, steam rises gently from the rice, leaves sway softly in the background.",
+      "sound": "birds chirping softly, leaves rustling, gentle steam"
+    }
+  ]
+}

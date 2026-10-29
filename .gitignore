@@ -18,3 +18,6 @@ riverboat/build/ops.json
 gardenfish/build/clip-*.mp4
 gardenfish/build/*.wav
 gardenfish/build/ops.json
+gardenlunch/build/clip-*.mp4
+gardenlunch/build/*.wav
+gardenlunch/build/ops.json
