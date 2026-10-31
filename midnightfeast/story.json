@@ -1,0 +1,72 @@
+{
+  "title": "A Midnight Feast with Old Friends",
+  "aspect": "9:16",
+  "music_volume": 0.6,
+  "style": "Beautiful hand-drawn 2D Japanese anime film still with an original nostalgic slice-of-life aesthetic: painterly backgrounds, delicate clean line art, detailed expressive character faces, rich environmental details, cinematic composition, natural colors, soft shadows. Not copying any existing film or artist. Lighting: deep navy-blue night sky full of stars contrasting with warm amber lantern light and glowing orange firelight, subtle reflections on cooking utensils. World (identical in every shot): a small traditional countryside cottage with clay walls, an old wooden doorway and a rustic thatched roof, paper lanterns hanging from the eaves, and in front of it a sturdy wooden outdoor cooking table and a traditional brick wood-fire stove with a large black iron pan, clay pots and simple utensils, quiet fields and dark trees around. Characters (always exactly these three young adult men, never more or fewer people, same faces and outfits every time): FRIEND 1 has short spiky black hair and wears a brown short-sleeved shirt and dark trousers; FRIEND 2 has slightly longer wavy chestnut-brown hair and wears a light beige short-sleeved shirt and dark trousers; FRIEND 3 has neat short black hair, round thin-rimmed glasses, and wears a blue short-sleeved shirt and dark trousers. All have natural proportions, warm friendly expressions and five fingers per hand. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no lettering, no captions, no logos, no watermark, no artist signature, no handwriting anywhere in the image.",
+  "motion_style": "Hand-drawn 2D anime animation, cozy slice-of-life, calm natural character motion and gentle smiles, smooth cinematic camera movement, flickering firelight, coherent faces and hands, stable objects. Keep the painterly anime look and the same three characters throughout. No text, no music, no spoken words, no singing.",
+  "negative": "text, letters, subtitles, captions, watermark, logo, signature, music, spoken dialogue, words, singing, extra people, fourth person, duplicated characters, distorted faces, extra fingers, changing outfits, flickering objects, sudden scene change, photorealistic, 3D render, CGI, same character twice, crowd, background people",
+  "music_prompt": "Peaceful acoustic instrumental for friends cooking together by a fire on a starry night: gentle fingerpicked acoustic guitar, soft piano, a subtle wooden flute and warm ambient pads, slow tempo around 72 bpm, nostalgic, heartwarming, relaxing and slightly playful, steady with a soft warm ending",
+  "music_negative": "vocals, lyrics, singing, drums, dramatic percussion, electric guitar, synth bass, dramatic changes, fast tempo, sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "gather",
+      "seconds": 5,
+      "gen_seconds": 6,
+      "refs": [],
+      "frame": "Wide cinematic shot at night in front of the countryside cottage: all three friends at the outdoor cooking station under the starry navy sky. FRIEND 1 (brown shirt, spiky black hair) crouches at the brick stove lighting the fire; FRIEND 2 (beige shirt, wavy chestnut hair) arranges bowls of dough, filling and vegetables on the wooden table; FRIEND 3 (blue shirt, glasses) walks over from the wooden doorway smiling, carrying a teapot. A warm paper lantern lights their faces, gentle smoke rises from the stove into the starry sky.",
+      "motion": "Friend 1 coaxes the small fire alight, Friend 2 sets out the ingredients, Friend 3 walks over smiling and joins them, the lantern sways slightly, smoke drifts up into the stars.",
+      "sound": "wood crackling as the fire catches, crickets in the night, soft footsteps, a friendly chuckle without words"
+    },
+    {
+      "id": 2,
+      "name": "dumplings",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "Overhead close-up of the flour-dusted wooden table under lantern light: the three friends' hands and forearms (brown, beige and blue short sleeves visible at the edges) making dumplings together: the brown-sleeved hands roll small circles of dough with a little rolling pin, the beige-sleeved hands spoon vegetable and meat filling onto a wrapper, the blue-sleeved hands pleat and fold a dumpling closed; a tray of neat folded dumplings, a bowl of filling, scattered flour.",
+      "motion": "The rolling pin turns dough into a round wrapper, a spoon places filling, careful fingers pleat a dumpling closed and set it on the tray, flour puffs softly.",
+      "sound": "soft rolling of dough on wood, a spoon tapping a bowl, dumplings being pleated, quiet friendly laughter without words, crickets"
+    },
+    {
+      "id": 3,
+      "name": "fire",
+      "seconds": 5,
+      "gen_seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "MEDIUM CLOSE shot, much closer than the wide establishing view, framed tightly on the single brick fire stove (only ONE stove in frame): FRIEND 1 (brown shirt, spiky black hair) on the left crouching to push a stick of dry wood into the glowing firebox, FRIEND 2 (beige shirt, wavy chestnut hair) in the middle placing the large black iron pan on the stove and drizzling oil from a small clay bottle, FRIEND 3 (blue shirt, round glasses) on the right holding a plate of freshly folded dumplings, orange firelight on their faces, only a sliver of the lantern-lit cottage wall and stars behind. Exactly three people.",
+      "motion": "Wood is pushed into the fire and the flames leap up, oil swirls and shimmers in the hot pan, Friend 3 smiles holding the plate of dumplings.",
+      "sound": "fire crackling and burning, the iron pan set on the stove, oil beginning to sizzle"
+    },
+    {
+      "id": 4,
+      "name": "cook",
+      "seconds": 8,
+      "gen_seconds": 8,
+      "refs": [
+        1,
+        2
+      ],
+      "frame": "Close-up of the large black iron pan on the brick fire stove filling most of the frame: rows of pan-fried dumplings with golden crispy bottoms, a burst of steam rising, a hand lifting the round wooden lid away to reveal them, orange flames beneath. At the top of the frame, leaning in close and smiling with excitement: FRIEND 1 (brown shirt, spiky black hair) and FRIEND 3 (blue shirt, round glasses), with FRIEND 2 (beige shirt, wavy chestnut hair) holding the lid. EXACTLY THREE people in the entire image, each appearing only once, nobody else in the background; dark starry night behind.",
+      "motion": "Exactly the same three people for the whole shot and nobody new ever appears: Friend 1 (brown shirt, spiky hair) on the left, Friend 3 (blue shirt, glasses) in the middle, Friend 2 (beige shirt, wavy hair) on the right holding the lid. The dumplings sizzle and their edges turn golden, a light wisp of steam rises without hiding anyone's face, Friend 2 lifts the wooden lid away to reveal the cooked dumplings, the three friends lean in and smile with excitement.",
+      "sound": "oil sizzling, a hiss of water and steam, the lid lifting, delighted soft laughter without words"
+    },
+    {
+      "id": 5,
+      "name": "feast",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1,
+        4
+      ],
+      "frame": "Wide shot of the three friends sitting together around the wooden outdoor table at night: a large ceramic plate piled with golden pan-fried dumplings in the middle, small dipping-sauce bowls and cups of hot tea; FRIEND 2 (beige shirt) pours tea, FRIEND 3 (blue shirt, glasses) passes a dumpling with chopsticks to FRIEND 1 (brown shirt, spiky hair), all smiling; behind them the glowing brick stove fire, the warm cottage with lanterns, and a vast starry navy sky.",
+      "motion": "The friends share the dumplings and pour tea, smiling and enjoying the meal, then the camera slowly pulls back to reveal the glowing fire, the lantern-lit cottage and the peaceful starry night.",
+      "sound": "tea being poured, chopsticks and ceramic bowls, soft happy laughter without words, crackling fire, crickets"
+    }
+  ]
+}

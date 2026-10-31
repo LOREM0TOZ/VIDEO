@@ -27,3 +27,6 @@ sunsetvillage/build/ops.json
 bakery/build/clip-*.mp4
 bakery/build/*.wav
 bakery/build/ops.json
+midnightfeast/build/clip-*.mp4
+midnightfeast/build/*.wav
+midnightfeast/build/ops.json
