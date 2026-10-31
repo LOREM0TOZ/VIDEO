@@ -1,0 +1,33 @@
+{
+  "title": "A Peaceful Night Under the Moonlight",
+  "aspect": "9:16",
+  "music_volume": 0.75,
+  "crossfade": 1.0,
+  "style": "High-quality hand-drawn 2D anime film still with an original nostalgic Japanese countryside slice-of-life aesthetic: beautiful painterly backgrounds, delicate line art, soft watercolor textures, cinematic environmental lighting, detailed wooden furniture, calm and dreamy. Not copying any existing film or artist. Lighting: deep midnight blue outside with soft silver moonlight, warm amber lantern light inside, subtle shadows, beautiful contrast between the cool exterior and the warm interior. World (identical in every shot): a rustic wooden mountain bedroom with honey-colored timber walls and floorboards, a large open wooden-framed window with soft cream linen curtains, overlooking a peaceful valley with layered dark blue mountains, a few distant countryside houses with tiny warm windows, dark green trees, a large glowing full moon, scattered stars and soft drifting clouds; inside, a low comfortable bed with dark navy-blue blankets and soft pillows, a wooden bedside table with a warm glowing paper lantern, a small clay teapot and a ceramic tea cup, and a small wooden bookshelf. Character (identical whenever shown, the only person): one young adult with short dark hair, slim natural proportions, light warm skin, wearing comfortable loose navy-blue pajamas, calm relaxed expression. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no lettering on book pages or covers, no captions, no logos, no watermark, no artist signature, no handwriting anywhere.",
+  "motion_style": "Hand-drawn 2D anime animation, very calm and slow, gentle environmental motion: curtains swaying softly, clouds drifting across the moon, leaves moving, fireflies floating, lantern glow flickering softly; natural subtle character movement, smooth slow cinematic camera, coherent anatomy, stable objects. Keep the painterly anime look throughout. No text, no music, no speech, no singing.",
+  "negative": "text, letters, subtitles, captions, watermark, logo, signature, music, speech, singing, extra people, second person, distorted face, extra fingers, changing outfit, flicker, sudden movement, fast camera, photorealistic, 3D render, CGI",
+  "music_prompt": "Peaceful nighttime instrumental, very slow about 60 bpm: soft felt piano melody, gentle atmospheric synth pads, delicate music-box notes and subtle warm acoustic guitar textures, dreamy, nostalgic, comforting, emotional and deeply relaxing, like watching the full moon from a cozy wooden bedroom in the mountains, smooth soft beginning and a gentle fading ending, consistent with no dramatic changes",
+  "music_negative": "vocals, lyrics, singing, drums, percussion, beats, electric guitar, bass drops, dramatic changes, fast tempo, sound effects",
+  "shots": [
+    {"id": 1, "name": "view", "seconds": 7, "gen_seconds": 8, "refs": [],
+     "frame": "Wide cinematic shot of the cozy wooden bedroom at night: the person in navy-blue pajamas sits comfortably on the bed, seen from behind and slightly to the side, looking out through the large open window at a huge glowing full moon above layered moonlit mountains and the quiet valley; warm lantern light glows on the bedside table, cool blue moonlight spills in across the blankets and floor.",
+     "motion": "The person sits still and breathes calmly, gazing at the moon, clouds drift slowly past the moon, the curtains sway slightly, the lantern glow flickers softly, the camera very slowly pushes in.",
+     "sound": "gentle night wind, distant crickets, a soft wooden house creak"},
+    {"id": 2, "name": "breeze", "seconds": 6, "gen_seconds": 6, "refs": [1],
+     "frame": "Closer view toward the large open window from inside the room, no person visible: the soft cream curtains billowing gently in the night breeze, moonlight falling in a pale silver rectangle across the wooden floorboards, outside the dark trees with tiny glowing fireflies floating near them, the full moon with thin clouds passing in front of it above the mountains.",
+     "motion": "The camera slowly moves toward the window, the curtains billow softly in the breeze, leaves sway outside, fireflies drift and blink, clouds pass slowly across the moon.",
+     "sound": "soft night breeze, leaves rustling, crickets, a distant owl hoot"},
+    {"id": 3, "name": "tea", "seconds": 6, "gen_seconds": 6, "refs": [1],
+     "frame": "Close-up at the wooden bedside table in warm lantern light: the person's hands (navy pajama sleeves) pouring warm tea from a small clay teapot into a ceramic cup, delicate steam rising and glowing, the open window with the moonlit mountains softly blurred behind.",
+     "motion": "The tea pours gently into the ceramic cup, delicate steam curls upward, then both hands lift the warm cup and hold it close, the curtains move softly in the background.",
+     "sound": "tea being poured into a ceramic cup, a soft clink, gentle breeze"},
+    {"id": 4, "name": "reading", "seconds": 8, "gen_seconds": 8, "refs": [1, 3],
+     "frame": "Medium close shot: the person in navy-blue pajamas sitting relaxed against soft pillows on the bed under the dark blue blanket, reading an open book (blank-looking pages with no legible writing) lit warmly by the lantern, the ceramic tea cup steaming softly on the bedside table, the curtains and moonlit window in the background.",
+     "motion": "The person reads calmly and slowly turns a page, the lantern light flickers softly on the pages, the curtains move gently behind, steam rises from the cup.",
+     "sound": "a page turning softly, faint lantern flicker, crickets, gentle breeze"},
+    {"id": 5, "name": "sleep", "seconds": 7, "gen_seconds": 8, "refs": [1, 4],
+     "frame": "Wide view of the whole wooden bedroom: the person lying peacefully asleep in bed beneath the dark navy-blue blanket, the closed book resting on the bedside table beside the glowing lantern and tea cup, the large open window showing the full moon, distant mountains, the valley and the starry night sky, curtains stirring gently.",
+     "motion": "The person sleeps peacefully and breathes softly, the camera slowly pulls back revealing the whole bedroom and then holds on the moonlit landscape through the window, clouds drift, the lantern glows softly.",
+     "sound": "very gentle night wind, distant crickets, a faraway owl, a soft wooden creak"}
+  ]
+}

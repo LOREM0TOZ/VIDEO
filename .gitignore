@@ -30,3 +30,6 @@ bakery/build/ops.json
 midnightfeast/build/clip-*.mp4
 midnightfeast/build/*.wav
 midnightfeast/build/ops.json
+moonlight/build/clip-*.mp4
+moonlight/build/*.wav
+moonlight/build/ops.json
