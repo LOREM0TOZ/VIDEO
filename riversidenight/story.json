@@ -1,0 +1,73 @@
+{
+  "title": "A Magical Night by the Riverside",
+  "aspect": "9:16",
+  "music_volume": 0.7,
+  "crossfade": 1.0,
+  "style": "Beautiful hand-drawn 2D Japanese anime film still with an original peaceful countryside aesthetic: detailed painterly natural backgrounds, delicate line art, expressive but natural characters, cinematic composition. Not copying any existing film or artist. Lighting: deep blue moonlit summer night with a bright full moon, warm orange campfire light on faces and grass, gentle silver reflections on the river. World (identical in every shot): a peaceful riverside campsite on soft green grass beneath one huge old gnarled tree with a wide leafy canopy, a small campfire in a ring of river stones, a gently flowing river beside it reflecting the moon, a small canvas tent, distant dark countryside hills with a few tiny house lights, glowing fireflies. Characters (always exactly these three young friends, never more or fewer people, same faces and outfits every time): FRIEND 1, a young man with messy short black hair, olive-green t-shirt and khaki trousers; FRIEND 2, a young man with brown hair tied in a short ponytail, white t-shirt under an open light-blue denim shirt, who plays the acoustic guitar; FRIEND 3, a young woman with a short black bob haircut, mustard-yellow cardigan over a white top and dark trousers. They always sit in the same order around the fire: Friend 1 on the left, Friend 3 in the middle, Friend 2 on the right. There is only one acoustic guitar. Natural proportions, five fingers per hand, relaxed happy expressions. Vertical 9:16 composition. One single continuous full-bleed illustration of one moment: not a comic, no panels, no split screen, no borders. No text, no captions, no logos, no watermark, no artist signature, no handwriting anywhere.",
+  "motion_style": "Hand-drawn 2D anime animation, peaceful and natural, subtle character movement and gentle smiles, flickering campfire light, sparks drifting up, fireflies floating, leaves swaying, the river flowing and shimmering, slow smooth cinematic camera movement, coherent faces and hands, stable objects. Keep the painterly anime look and the same three characters throughout. No text, no music, no spoken words, no singing.",
+  "negative": "text, subtitles, captions, watermark, logo, signature, music, spoken dialogue, words, singing, extra people, fourth person, duplicated characters, same character twice, distorted faces, extra fingers, changing outfits, exaggerated animation, flicker, fast camera, photorealistic, 3D render, CGI, second guitar, two guitars, hands entering from frame edge, long hair on Friend 3",
+  "music_prompt": "Soft relaxing acoustic instrumental for friends around a campfire on a summer night by a river: gentle fingerpicked acoustic guitar, soft piano and warm ambient pads, very slow tempo around 60 bpm, nostalgic, peaceful, heartwarming, consistent and calm with a soft fading ending",
+  "music_negative": "vocals, lyrics, singing, drums, heavy percussion, electric guitar, dramatic transitions, fast tempo, sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "camp",
+      "seconds": 7,
+      "gen_seconds": 8,
+      "refs": [],
+      "frame": "Wide shot of the riverside campsite at night: the three friends sitting on the grass around the small glowing campfire beneath the huge old tree, FRIEND 1 (olive t-shirt) on the left, FRIEND 3 (yellow cardigan, black bob) in the middle, FRIEND 2 (denim shirt, ponytail) on the right with a guitar case beside him; the bright full moon above lights the flowing river beside them, green grass and the distant countryside; warm firelight against the deep blue sky.",
+      "motion": "The campfire flickers, the three friends sit relaxed and chat quietly, the river flows and shimmers in the moonlight, leaves sway gently, the camera slowly drifts in.",
+      "sound": "gentle flowing river, crickets, firewood crackling, light wind through leaves"
+    },
+    {
+      "id": 2,
+      "name": "stories",
+      "seconds": 7,
+      "gen_seconds": 8,
+      "refs": [
+        1
+      ],
+      "frame": "TIGHT MEDIUM CLOSE-UP, much closer than the reference: only the three friends' heads, shoulders and hands fill the frame, the campfire flames along the bottom edge; the tree and river are only a blurred dark backdrop. Left: FRIEND 1 (messy short black hair, olive-green t-shirt) reaching down to set a small piece of wood on the fire. Middle: FRIEND 3 (young woman, SHORT BLACK BOB haircut, mustard-yellow cardigan) smiling, holding a warm enamel cup in both hands. Right: FRIEND 2 (brown hair in a short ponytail, open light-blue denim shirt over white t-shirt) smiling as he listens. Warm firelight on their faces.",
+      "motion": "Friend 1 places the piece of wood on the fire and small sparks rise, Friend 3 sips from the warm cup and smiles, Friend 2 nods and smiles, natural relaxed movement.",
+      "sound": "firewood crackling as the wood is added, a soft happy chuckle without words, river and crickets"
+    },
+    {
+      "id": 3,
+      "name": "music",
+      "seconds": 7,
+      "gen_seconds": 8,
+      "refs": [
+        1
+      ],
+      "frame": "CLOSE SHOT focused on FRIEND 2 (white t-shirt, open light-blue denim shirt, brown ponytail) sitting on the grass playing the one acoustic guitar, eyes softly lowered, gentle smile, warm firelight on him; FRIEND 3 (young woman with a SHORT BLACK BOB haircut just above the chin, mustard-yellow cardigan; NOT long hair, NOT brown hair) and FRIEND 1 (olive t-shirt) softly out of focus beside him listening; fireflies floating around; the river reflecting the full moon in the background. The only guitar is the one in his hands.",
+      "motion": "Friend 2 strums and fingerpicks the guitar gently with natural hand movement, the other two listen peacefully and sway slightly, fireflies drift slowly, the river reflection glimmers.",
+      "sound": "a few soft acoustic guitar strings being plucked, crickets, the river flowing",
+      "audio_gain": 0.3
+    },
+    {
+      "id": 4,
+      "name": "snacks",
+      "seconds": 7,
+      "gen_seconds": 8,
+      "refs": [
+        1,
+        2
+      ],
+      "frame": "LOW ANGLE CLOSE to the ground right beside the campfire: the fire large in the foreground with bright sparks rising into the night air, and just beyond it, slightly soft, the three friends in their usual order (Friend 1 olive t-shirt left, Friend 3 yellow cardigan middle, Friend 2 denim shirt right) laughing softly and sharing snacks: Friend 1 offers a small paper bag of roasted chestnuts to Friend 3, Friend 2 holds a toasted marshmallow on a stick. Exactly three people and only their own hands: Friend 2 holds the marshmallow stick himself; no hands, arms or people enter from the edges of the frame.",
+      "motion": "The camera slowly moves closer to the campfire, sparks rise and drift into the night, the friends share the snacks and laugh softly in the background.",
+      "sound": "fire crackling and popping, sparks, soft laughter without words, crickets"
+    },
+    {
+      "id": 5,
+      "name": "ending",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "VERY WIDE, DISTANT establishing shot from far away on the opposite riverbank, a completely different view from the close campsite shots: the broad moonlit river in the foreground reflecting the huge full moon, and across the water the giant old tree with the tiny glowing campfire and three very small figures beneath it and the little tent, the dark forest, rolling countryside hills, a sky full of stars, fireflies over the grass.",
+      "motion": "The camera slowly pulls back revealing the whole moonlit riverside, the campfire glows softly, the river shimmers, leaves sway, fireflies drift.",
+      "sound": "gentle flowing river, soft crickets, a distant crackle of the fire, light wind"
+    }
+  ]
+}
