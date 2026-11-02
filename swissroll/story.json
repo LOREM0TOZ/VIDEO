@@ -1,0 +1,88 @@
+{
+  "title": "Three Friends Baking Together",
+  "aspect": "9:16",
+  "music_volume": 0.7,
+  "crossfade": 1.0,
+  "style": "High-quality hand-drawn 2D Japanese anime film still with an original cozy slice-of-life aesthetic: painterly backgrounds, delicate line art, soft warm colors, beautiful detailed food illustration with realistic cake textures, fresh glossy strawberries and fluffy whipped cream, cinematic composition. Not copying any existing film or artist. World (identical in every shot): a cozy countryside kitchen with honey-colored wooden cabinets and counters, a white tiled backsplash, a large window with warm golden afternoon sunlight and green fields outside, a small black iron oven with a glass door on the left side of the room, a ceramic sink under the window on the right, a long wooden work counter in the middle, hanging copper utensils, potted herbs, and a small round wooden table with two chairs and a bench beside the window. Characters (always exactly these three friends, never more or fewer people, same faces and outfits every time): FRIEND 1, a young woman with shoulder-length dark brown hair, white t-shirt and a cream-colored apron, who leads the baking and mixes; FRIEND 2, a young man with short black hair, light blue shirt with rolled sleeves and a brown apron, who handles the baking tray and oven; FRIEND 3, a young woman with long black hair tied loosely at the nape, pale lavender blouse and a soft pink apron, who prepares strawberries and cream. When all three are working, Friend 2 stands on the left near the oven, Friend 1 in the middle at the counter, Friend 3 on the right by the sink and window. Natural proportions, five fingers per hand, gentle happy expressions, nothing exaggerated. Vertical 9:16 composition. One single continuous full-bleed vertical illustration of ONE moment from ONE camera: the scene and each person appear only ONCE in the whole image; not a comic, no panels, not two stacked pictures, no split screen, no borders, no repeated scene. No text, no labels or lettering on packages, no captions, no logos, no watermark, no artist signature, no handwriting anywhere.",
+  "motion_style": "Hand-drawn 2D anime animation, peaceful and natural, smooth realistic baking hand movements, gentle smiles, soft sunlight, gentle slow camera movement, coherent faces and hands, stable objects. Keep the painterly anime look and the same three characters throughout. No text, no music, no spoken words, no singing.",
+  "negative": "text, letters, labels, subtitles, captions, watermark, logo, signature, music, spoken dialogue, words, singing, extra people, fourth person, duplicated characters, same character twice, distorted faces, extra fingers, changing outfits, exaggerated expressions, sudden camera movement, flicker, photorealistic, 3D render, CGI, two panels, stacked images, repeated scene",
+  "music_prompt": "Gentle peaceful instrumental for a cozy anime baking afternoon with friends: soft felt piano melody, gentle acoustic guitar, warm ambient pads and subtle music-box notes, slow tempo around 60 bpm, cozy, nostalgic, heartwarming, soft and consistent with no sudden volume changes, gentle fade at the end",
+  "music_negative": "vocals, lyrics, singing, drums, heavy percussion, dramatic music, sudden changes, electric guitar, fast tempo, sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "ingredients",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [],
+      "frame": "Medium-wide shot of the whole cozy wooden kitchen in warm afternoon sunlight, all three friends at work: FRIEND 2 (short black hair, light blue shirt, brown apron) on the left arranging a bag of flour, a bottle of milk and a small butter dish on the counter near the oven; FRIEND 1 (shoulder-length dark brown hair, cream apron) in the middle cracking an egg into a large cream ceramic bowl with sugar beside it; FRIEND 3 (long black hair tied loosely, pink apron) on the right at the sink under the window rinsing fresh red strawberries in a colander.",
+      "motion": "Friend 1 cracks the egg into the bowl, Friend 2 sets out the ingredients, Friend 3 rinses the strawberries under running water, sunlight glows through the window.",
+      "sound": "an egg cracking, water running over strawberries, soft kitchen sounds, quiet footsteps"
+    },
+    {
+      "id": 2,
+      "name": "batter",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "CLOSE-UP at the counter, a new angle closer than the reference: FRIEND 1's hands (cream apron, white t-shirt sleeves) whisking a smooth, pale yellow, fluffy cake batter in the ceramic bowl, and FRIEND 2's hands (light blue rolled sleeves) tilting the bowl to pour the silky batter onto a rectangular parchment-lined baking tray; FRIEND 3 (pink apron, long black hair) smiling softly in the background setting out a spatula and whisk; sunlight on the glossy batter.",
+      "motion": "The whisk moves smoothly through the fluffy batter, then the batter is poured in a silky ribbon onto the baking tray and spreads evenly, Friend 3 smiles in the background.",
+      "sound": "gentle whisking, batter pouring onto the tray, a soft clink of utensils"
+    },
+    {
+      "id": 3,
+      "name": "oven",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1,
+        2
+      ],
+      "frame": "Shot from beside the small black iron oven with its glass door: FRIEND 2 (short black hair, light blue shirt, brown apron, oven mitts) sliding the tray into the warm glowing oven, the tray is the same flat rectangular baking tray from the reference holding a thin, flat, even golden sponge sheet (a Swiss-roll sponge, NOT a round or tall cake); in the softly lit background FRIEND 1 (cream apron) whipping fresh cream in a bowl and FRIEND 3 (pink apron) slicing strawberries on a board; warm orange oven light across the kitchen.",
+      "motion": "Friend 2 slides the tray in and gently closes the oven door, through the glass the sponge glows golden as it bakes, the other two prepare cream and strawberries in the background.",
+      "sound": "the oven door opening and closing softly, a gentle hum of baking, cream being whisked, a knife slicing strawberries"
+    },
+    {
+      "id": 4,
+      "name": "decorate",
+      "seconds": 7,
+      "gen_seconds": 8,
+      "refs": [
+        1,
+        2
+      ],
+      "frame": "Overhead view of the wooden counter: a flat golden baked sponge sheet on parchment, FRIEND 1's hands (cream apron) spreading a thick layer of fluffy white whipped cream with an offset spatula, FRIEND 3's hands (pink apron, lavender sleeves) arranging glossy sliced strawberries in neat rows across the cream, FRIEND 2's hands (light blue sleeves) lifting the near edge of the parchment to begin rolling the sponge; bowls of cream and strawberries around.",
+      "motion": "The cream is spread smoothly, strawberry slices are placed in rows, then the parchment is lifted and the sponge is gently rolled into a Swiss roll.",
+      "sound": "a spatula spreading cream, strawberries placed softly, parchment rustling as the cake rolls",
+      "audio_gain": 0.45
+    },
+    {
+      "id": 5,
+      "name": "slice",
+      "seconds": 6,
+      "gen_seconds": 6,
+      "refs": [
+        1,
+        4
+      ],
+      "frame": "Close-up on a wooden board by the window: the finished strawberry Swiss roll being cut into neat slices with a long knife, each slice showing a beautiful spiral of golden sponge, white cream and red strawberry pieces; slices arranged on a pretty cream ceramic serving plate with a few whole strawberries as decoration; the three friends' hands helping (cream apron, light blue sleeves, pink apron), soft sunlight.",
+      "motion": "The knife slides cleanly through the roll revealing the cream and strawberry spiral, hands place the slices neatly on the plate and add whole strawberries.",
+      "sound": "a knife cutting softly through cake, a ceramic plate, gentle friendly laughter without words"
+    },
+    {
+      "id": 6,
+      "name": "enjoy",
+      "seconds": 4,
+      "gen_seconds": 4,
+      "refs": [
+        1,
+        5
+      ],
+      "frame": "The three friends sitting together at the small round wooden table beside the sunny kitchen window: FRIEND 2 (light blue shirt) on the left, FRIEND 1 (cream apron, shoulder-length brown hair) in the middle, FRIEND 3 (pink apron, long black hair) on the right, smiling happily with plates of strawberry Swiss roll slices and cups of warm tea; the serving plate and a teapot in the foreground, golden afternoon light filling the cozy kitchen.",
+      "motion": "The friends take a bite and smile, steam rises from the tea, then the camera gently moves closer to the cake and tea in the foreground.",
+      "sound": "tea being poured, a fork on a plate, soft happy laughter without words"
+    }
+  ]
+}
