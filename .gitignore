@@ -42,3 +42,6 @@ swissroll/build/ops.json
 dayathome/build/clip-*.mp4
 dayathome/build/*.wav
 dayathome/build/ops.json
+robotbattle/build/clip-*.mp4
+robotbattle/build/*.wav
+robotbattle/build/ops.json

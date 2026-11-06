@@ -1,0 +1,86 @@
+{
+  "title": "Village Robot Battle",
+  "aspect": "9:16",
+  "music_volume": 0.6,
+  "crossfade": 0.25,
+  "style": "Fully animated high-quality stylized 3D cartoon render, like a modern family animated feature film: soft rounded shapes, bright saturated colours, clean stylized materials, gentle global illumination, bright natural daylight, expressive cartoon characters with big friendly eyes and slightly exaggerated proportions. NOT live action, NOT photorealistic, NOT anime, NOT 2D. Original designs, not copying any existing film, studio or brand. World (identical in every shot): a charming countryside village with small colourful wooden houses with tiled roofs, green rolling hills, golden-green rice fields, leafy trees, colourful flowers and bunting, under a clear blue sky with puffy white clouds. In the village square stands a small circular robot fighting arena about 4 metres wide with a smooth grey steel floor and a low round wooden base topped by tall transparent protective walls, with cartoon villagers (children, adults and elderly grandparents) gathered around outside the walls. ROBOT 1 'GREEN CRUSHER' (identical every time): a compact, low, wide battle robot with a black armoured body and bright green armour panels, four chunky black wheels, a large horizontal spinning steel disc weapon mounted on its front, and glowing bright green light strips along its sides. ROBOT 2 'RED THUNDER' (identical every time): a compact angular battle robot with a red and black faceted wedge-shaped body, four fast black wheels, a flat silver lifting arm (flipper) at its front, and glowing bright red light strips. Exactly these two robots, each appearing only once. Vertical 9:16 composition. One single continuous full-bleed image from ONE camera: not a comic, no panels, no split screen, no borders. No text, no numbers, no letters on the robots, no signs, no scoreboard, no captions, no logos, no watermark.",
+  "motion_style": "Fully animated stylized 3D cartoon animation, smooth fast believable robot movement on wheels, cartoon-style bright spark bursts on impacts, lively expressive villager reactions, dynamic but smooth cinematic camera, easy-to-follow action, consistent robot designs. No live action, no text, no music, no spoken words, no singing. Both robots are rigid low wheeled vehicles that stay flat on their four wheels on the arena floor at all times: they never transform, never stand up, never grow legs or arms, never fly or jump, and nothing explodes; impacts only make brief bursts of cartoon sparks.",
+  "negative": "live action, photorealistic, realistic humans, anime, 2D, text, numbers, letters, logos, scoreboard, subtitles, watermark, music, spoken words, dialogue, singing, third robot, extra robots, duplicated robot, changing robot colours, blood, injury, fire explosion, flicker, distorted faces, two green robots, two red robots, transforming robot, humanoid robot, robot standing up, legs, walking robot, flying robot, explosion, fireball, smoke cloud, fog, robots disappearing",
+  "music_prompt": "Energetic but fun and family-friendly instrumental for a cartoon robot battle in a sunny village: playful orchestral strings and brass, light electronic synthesizer arpeggios, gentle cinematic drums and exciting rhythmic percussion building through the middle, then a cheerful uplifting triumphant melody for the ending, upbeat about 120 bpm, never aggressive",
+  "music_negative": "vocals, lyrics, singing, heavy metal, distorted guitar, aggressive dubstep, horror, sad, sound effects",
+  "shots": [
+    {
+      "id": 1,
+      "name": "arena",
+      "seconds": 5.25,
+      "gen_seconds": 6,
+      "refs": [],
+      "frame": "Elevated view looking down over the colourful village toward the small circular robot arena in the village square, close enough to clearly see both robots waiting on opposite sides of the steel arena floor: GREEN CRUSHER (black body, green panels, big front spinning disc, green lights) on the left and RED THUNDER (red and black angular wedge, silver front flipper, red lights) on the right; smiling cartoon villagers of all ages crowd around the transparent walls cheering; houses, rice fields, hills and blue sky behind.",
+      "motion": "The camera glides slowly down and forward from the sky toward the arena, villagers wave and cheer, bunting flutters, the two robots idle with their lights glowing.",
+      "sound": "village ambience with birds singing, a crowd of villagers cheering happily, robot motors starting up"
+    },
+    {
+      "id": 2,
+      "name": "enter",
+      "seconds": 5.25,
+      "gen_seconds": 6,
+      "refs": [
+        1
+      ],
+      "frame": "Low dramatic close-up at floor level inside the arena: GREEN CRUSHER in the foreground rolling forward, its big steel disc weapon starting to spin with a blur, green light strips glowing, chunky wheels gripping the steel floor; RED THUNDER facing it in the background with its silver flipper lowered and red lights glowing; excited cartoon villagers pressed against the transparent walls behind.",
+      "motion": "Both robots roll toward the centre of the arena, Green Crusher's disc spins up faster, Red Thunder's flipper twitches, the villagers lean in excitedly.",
+      "sound": "electric motors revving, wheels rolling on the steel floor, a spinning disc whirring up, excited crowd"
+    },
+    {
+      "id": 3,
+      "name": "collision",
+      "seconds": 6.25,
+      "gen_seconds": 8,
+      "refs": [
+        1,
+        2
+      ],
+      "frame": "Dynamic side view inside the arena at the moment of the first impact: GREEN CRUSHER's spinning disc striking the side of RED THUNDER as Red Thunder swerves sideways, a spectacular burst of bright yellow-orange cartoon sparks spraying out, both robots' lights glowing, motion blur on the wheels, amazed villagers behind the transparent walls.",
+      "motion": "Both robots drive fast toward each other across the floor, Red Thunder swerves sideways on its wheels, Green Crusher's spinning disc clips its side with a short burst of bright sparks, and both robots bounce apart and keep driving on their wheels; the camera swings smoothly around them.",
+      "sound": "motors racing, a loud metallic clang and grinding, sparks crackling, the crowd gasping then cheering"
+    },
+    {
+      "id": 4,
+      "name": "lift",
+      "seconds": 6.25,
+      "gen_seconds": 8,
+      "refs": [
+        1,
+        2
+      ],
+      "frame": "Low three-quarter view inside the arena: RED THUNDER's silver flipper raised high, lifting the front of GREEN CRUSHER up off the floor at an angle, Green Crusher's disc still spinning and its wheels spinning in the air, sparks flying where they touch, cheering children and grandparents behind the transparent walls.",
+      "motion": "Green Crusher drives forward with its disc spinning, Red Thunder dodges on its wheels and slides its flat flipper under Green Crusher's front edge, the flipper raises Green Crusher's front only a little off the floor for a moment, then Green Crusher drops back onto its four wheels and both keep driving. Red Thunder stays flat on its wheels the whole time.",
+      "sound": "a pneumatic hiss as the flipper fires, wheels spinning in the air, metal thudding back onto the floor, crowd cheering"
+    },
+    {
+      "id": 5,
+      "name": "final",
+      "seconds": 4.25,
+      "gen_seconds": 6,
+      "refs": [
+        1,
+        3
+      ],
+      "frame": "Head-on symmetrical view down the centre of the arena: GREEN CRUSHER and RED THUNDER charging straight at each other for the final collision, meeting in the middle with a huge bright starburst of cartoon sparks, villagers on both sides with arms raised cheering.",
+      "motion": "Both robots race to the centre and meet in one big final collision, a bright starburst of sparks flares, Red Thunder spins away and stops, the crowd jumps and cheers.",
+      "sound": "motors at full speed, one big metallic crash, a burst of sparks, the crowd roaring with excitement"
+    },
+    {
+      "id": 6,
+      "name": "celebrate",
+      "seconds": 4.0,
+      "gen_seconds": 4,
+      "refs": [
+        1
+      ],
+      "frame": "Medium shot from just outside the arena at villager eye level, a different angle from the overhead view: EXACTLY TWO robots in the arena. In the centre the single GREEN CRUSHER, the winner, its green lights flashing and disc spinning as it circles proudly; RED THUNDER parked still at the far side with its flipper down. In the foreground cartoon villagers seen from behind and the side, clapping, waving and celebrating, a child on a grandfather's shoulders; colourful houses, green trees, rice fields and distant hills under the blue sky beyond. There is only ONE green robot and only ONE red robot.",
+      "motion": "Green Crusher drives a happy victory circle around the arena floor on its wheels with its green lights flashing, Red Thunder stays parked, the villagers clap and cheer, and the camera slowly rises and pulls back to show the whole sunny village. Clear air, no fog or smoke; both robots remain visible on the floor.",
+      "sound": "applause and happy cheering, a victorious motor rev, birds singing in the village"
+    }
+  ]
+}
